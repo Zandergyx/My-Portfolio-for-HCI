@@ -66,7 +66,7 @@
             <div class="row">
               <div class="col pt-5">
                 <h1 class="display-4">A Reflection On My <span class="badge badge-danger"> Info-communications </span>Learning Journey So Far </h1>
-                <h4>Primary 6 marks an important milestone for all 11/12 years old in Singapore.  And it seems like an opportune time to also reflect and consolidate what I have gone through in the past few years in terms of my Infocomm pathway. </h4>
+                <h4>Primary 6 marks an important milestone for all 11 to 12-year-olds in Singapore. It seems like an opportune time to reflect on and consolidate what I have experienced in the past few years regarding my info-communications pathway. </h4>
               </div>
               <div class="col-3">
                 <img src="Screenshot 2025-05-28 163753 (1).png" height 200px>
@@ -133,7 +133,7 @@
           <div class="card-body">
             <h4 class="card-title">My School</h4>
             <p class="card-text">
-             I am Zander Goh, a Primary 6 student at Anglo-Chinese School (Junior). One of my proudest achievements was being selected as a Junior Leader in Primary 3 and 4, a role that allowed me to develop leadership skills and make a positive impact on my school community.</p>
+             I am Zander Goh, a Primary 6 student at Anglo-Chinese School (Junior). One of my proudest achievements was being selected as a Junior Leader in Primary 3 and 4, a role that allowed me to develop leadership skills and positively impact my school community.</p>
             </div>
         </div>
       
@@ -153,7 +153,7 @@
       <div class="card-body">
         <h4 class="card-title"> Membership</h4>
         <p class="card-text">
-          Member of Mensa since: 28 of October 2020. A highlight of my Mensa Junior experience was participating in the ByteBuilders Python course, led by Ticket to Tech</p>
+          Member of Mensa since October 28, 2020. A highlight of my Mensa Junior experience was participating in the ByteBuilders Python course, led by Ticket to Tech.</p>
         </div>
       </div>
 
@@ -163,7 +163,7 @@
       <div class="card-body">
         <h4 class="card-title"> Courses and Challenges</h4>
         <p class="card-text">
-          I have finished 5 lectures in CS50 and will resume after my PSLE.  I am also on MyCodeSchool's Data Structures and Algorithms Series. HackerRank is fun and perfect for destress.</p>
+          I have finished 5 lectures in CS50 and will resume after my PSLE.  I am also on MyCodeSchool's Data Structures and Algorithms series. HackerRank is fun and perfect for de-stressing.</p>
         </div>
       </div>
     </div>
@@ -187,7 +187,7 @@
             <td> 1 </td>
             <td>
               <a href="#projects" data-toggle="popover" data-container="body"
-              data-content="You can play the Project at this link: https://scratch.mit.edu/projects/914913295"
+              data-content="This is the most sophisticated Scratch project which I have created. Though Scratch may be viewed as an entry platform for new coding learners, it too can be powerful and allow the creation of awesome projects. You can play the Project at this link: https://scratch.mit.edu/projects/914913295"
               data-placement="right" title="An Indefinite World" data-trigger="hover">
                 An Indefinite World
               </a>
@@ -198,7 +198,7 @@
             <td> 2 </td>
             <td>
               <a href="#projects" data-toggle="popover" data-container="body"
-              data-content="My first C++ Project"
+              data-content="My first C++ project.  Surprisingly, the language was not too difficult to grasp. It was fun.  "
               data-placement="right" title="Battleship" data-trigger="hover">
                 Battleship
               </a>
@@ -209,7 +209,7 @@
             <td> 3 </td>
             <td>
               <a href="#projects" data-toggle="popover" data-container="body"
-              data-content="You can play this game at the Repository"
+              data-content="This is the second C# project that I created. It was a step up from the basic calculator I made in C# previously."
               data-placement="right" title="Atari Breakout" data-trigger="hover">
                 Atari Breakout
               </a>
@@ -220,7 +220,7 @@
             <td> 4 </td>
             <td>
               <a href="#projects" data-toggle="popover" data-container="body"
-              data-content="View my 1st Project at the repository"
+              data-content="View my first HTML project at the repository. First is always the most memorable. Exploration and experimentation are the keys to my learning philosophy.  "
               data-placement="right" title="Translator" data-trigger="hover">
                 A Translator using HTML using a tutorial online (My first HTML project)
               </a>
@@ -237,32 +237,74 @@
       </div>
     </div>
 </div>
+<div class="menu-dropdown">
+  <button class="menu-button" onclick="toggleDropdown()">My Other Projects ▼</button>
+  <div id="dropdownContent" class="menu-content" style="scale: 1;">
+    <div class="resize-buttons">
+      <button onclick="resizeDropdown(1.1)">+</button>
+      <button onclick="resizeDropdown(0.9)">−</button>
+    </div>
+
+    <a href="#" class="menu-project">
+      <img src="./Arduino.jpg" alt="Project 1">
+      <div class="menu-project-info">
+        <div class="menu-project-title">Arduino Piano</div>
+        <div class="menu-project-description">A piano made with LEDs, resistors, buttons and many more. This project taught me how to integrate hardware and software. Wiring is tough, but the bruises on my fingertips were worthwhile.</div>
+      </div>
+    </a>
+    <a href="#" class="menu-project">
+      <img src="./Unity.png" alt="Project 2">
+      <div class="menu-project-info">
+        <div class="menu-project-title">Unity Farm Game</div>
+        <div class="menu-project-description">A Unity Game that simulates what it is like to be on a farm. This project taught me the basics of C# and how to work with RigidBodies.</div>
+      </div>
+    </a>
+    <a href="#" class="menu-project">
+      <img src="./cpp.png" alt="Project 3">
+      <div class="menu-project-info">
+        <div class="menu-project-title">A Small C++ Program</div>
+        <div class="menu-project-description">This project taught me the ins and outs of this language. It also taught me how fragile code can be in C++. Compared to Python, C++ is more demanding in terms of specificity. An example would be the use of semicolons. But nonetheless, the theory and logic behind these two languages are similar.</div>
+      </div>
+    </a>
+  </div>
+  <div id="imgModal" class="img-modal" onclick="closeModal()">
+  <span class="close-btn" onclick="closeModal()">×</span>
+  <img class="img-modal-content" id="modalImg">
+</div>
+</div>
 <div class="row py-3" id="moment">
   <div class="col-md-12 text-center">
     <h1 class="display-4 mb-3"> The Most Impactful Moments in my CS Educational Journey So Far</h1>
     <p><h4>Roboto</h4></p>
-    <p>I joined Roboto Coding July 2022.  I will never forget my mentor, Mr Wong Yong Bin.  He is the one who ignited my love for coding.  Their Programme has a broad-based curriculum.  I was introduced to the world of mBot, CoSpaces, Minecraft Education, Micro:Bit, Thunkable, HTML, CSS 3, Bootstrap, Python, Game Maker Studio, C++ and Unity.  Though this course may seem to have the breadth, but it lacks the depth.  But certainly, it serves as a good start for me to build my knowledge onwards and upwards.</p>
-    <a href="MrWong.pdf" download="MrWong.pdf">
+    <p>I joined Roboto Coding July 2022.  I will never forget my mentor, Mr Wong Yong Bin.  He is the one who ignited my love for coding.  Their program has a broad-based curriculum.  I was introduced to the world of mBot, CoSpaces, Minecraft Education, Micro:Bit, Thunkable, HTML, CSS 3, Bootstrap, Python, Game Maker Studio, C++ and Unity.  Though this course may seem to offer breadth, it lacks depth.  However, it serves as a good start for me to build my knowledge onward and upward.</p>
+    <a href="MrWong.pdf" download="MrWong.pdf" class="testimonial-btn">
         <button>Download a Testimonial from Mr Wong</button>
     </a>
-    <p><a href="MsHema.pdf" download="MsHema.pdf">
+    <p><a href="MsHema.pdf" download="MsHema.pdf" class="testimonial-btn">
         <button>Download a Testimonial from another Roboto Teacher, Ms Hema</button>
     </a></p>
     <p><h4>My Primary Reference Sites</h4></p>
-    <p><a href="https://www.geeksforgeeks.org">GeeksForGeeks</a>, The languages Documentations, <a href="https://stackoverflow.com/questions">StackOverflow</a>, Any burning questions would involve utilizing ChatGPT Mini.</p>
+    <p><a href="https://www.geeksforgeeks.org">GeeksForGeeks</a>, The languages Documentations, <a href="https://stackoverflow.com/questions">StackOverflow</a>; Any burning questions would involve utilizing ChatGPT Mini.</p>
     <p><h4><a href="https://www.youtube.com/@mycodeschool">MyCodeSchool</a></h4></p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/92S4zgXN17o?si=8o6NONCwUdHZ3Ym-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p>I discovered a brilliant YouTube series on data structures and algorithms from MyCodeSchool.  This series was founded in 2012 by Animesh Nayan and Harsha Suryanarayana, both legendary competitive programmers.  However, because of a tragic accident, their production on MyCodeSchool only lasted 4+ years. This series provided explanations to fundamental concepts in easy-to-understand language.  Simply brilliant.</p>
+    <p>I discovered a brilliant YouTube series on data structures and algorithms by MyCodeSchool.  This series was founded in 2012 by Animesh Nayan and Harsha Suryanarayana, both legendary competitive programmers.  However, because of a tragic accident, their production on MyCodeSchool lasted only 4+ years. This series provided explanations to fundamental concepts in easy-to-understand language.  Simply brilliant.</p>
     <p><h4><a href="https://cs50.harvard.edu/">CS50</a></h4></p>
-    <p>This course was recommended to me by a parent from Mensa Junior as I was looking for a higher-level structured course so I may learn and fill in knowledge gaps.  Professor Malan is an engaging lecturer.  During his first lecture, he used blinking lightbulbs to represent how the CPU in the computer uses bits to store information.  The concept of binary was simple to understand as it was explained in a logical fashion. I was hooked and fascinated.  </p>
+    <p>This course was recommended to me by a parent from Mensa Junior as I was seeking a higher-level structured course so I may learn and fill in knowledge gaps.  Professor Malan is an engaging lecturer.  During his first lecture, he used blinking light bulbs to represent how the CPU in the computer uses bits to store information.  The concept of binary was easy to understand as it was explained in a logical fashion. I was hooked and fascinated.  </p>
     <p><h4>And There Are Times When Things Go Wrong….</h4></p>
     <p>Nowadays, I always use a Virtual Machine whenever I am running risky codes or when I am dealing with API calls. My previous laptop, an Acer, slowed down drastically because of my code, an API call.  When I had to upgrade my laptop, I installed a virtual machine. 
-2 months ago, my uncle ran into a programming issue and wanted to discuss with me a way to resolve it.  He tried to program an API Stock Market Project and made a mistake by calling ChatGPT in a While True Loop.  I had to explain to him that a While True Loop will go on indefinitely as true stands for ‘Yes’ in English allowing the loop to go forever. Because of this, the laptop ran slower and slower.  He also opened too many tabs of ChatGPT and almost deleted System 32.  At the end, I had to help him restart his system.  Though the laptop went back to normal function, my uncle lost his files.  
+2 months ago, my uncle ran into a programming issue and wanted to discuss a way to resolve it with me.  He tried to program an API Stock Market Project and made a mistake by calling ChatGPT in a While True Loop.  I had to explain to him that a While True Loop will go on indefinitely as true stands for ‘Yes’ in English allowing the loop to go forever. Because of this, the laptop ran slower and slower.  He also opened too many tabs of ChatGPT and almost deleted System 32.  At the end, I had to help him restart his system.  Although the laptop returned to normal function, my uncle lost his files.  
 </p>
     <p><h4>So What’s Next… </h4></p>
-    <p>I would hope to follow in the footsteps of Animesh and Harsha and become a competitive programmer.  Making mistakes and learning from them though heartbreaking at times but serves as a great learning experience.  I crave for knowledge and am happy to work hard for all this.    </p>
+    <p>I would hope to follow in the footsteps of Animesh and Harsha and become a competitive programmer.  Making mistakes and learning from them, though heartbreaking at times, serves as a great experience.  I crave for knowledge and am happy to work hard for it all.    </p>
   </div>
 </div>
+<div style="text-align: center; padding: 50px 0;">
+    <a href="./Supporting Documents.zip" download id="downloadLink">
+      <button class="download-btn" id="downloadButton">
+        ⬇️ Download Supporting Documents
+      </button>
+    </a>
+  </div>
 <div class="row pb-3" id="timeline-row">
   <div class="col-md-12 text-center">
     <h1 class="display-4 mb-3"> My Learning Journey(Based on Certification Dates)</h1>
@@ -362,7 +404,7 @@
     <div class="container right">
       <div class="content">
         <h2>March 2024</h2>
-        <h3><a href="#" data-toggle="modal" data-target="#modal-16">First Lego League(Made it to Finals(Participation Award))</a></h3>
+        <h3><a href="#" data-toggle="modal" data-target="#modal-16">First Lego League(Finalist(Participation Award))</a></h3>
       </div>
     </div>
     <div class="container left">
@@ -374,7 +416,7 @@
     <div class="container right">
       <div class="content">
         <h2>May 2025</h2>
-        <h3><a href="#" data-toggle="modal" data-target="#modal-18">The Coding Challenge(UKCC)(Level A)(Waiting for Results)</a></h3>
+        <h3><a href="#" data-toggle="modal" data-target="#modal-18">The Coding Challenge(UKCC)(Level A)(Perfect Score)</a></h3>
       </div>
     </div>
     <div class="container left">
@@ -414,7 +456,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            Roboto Holiday Workshop(TechWhizz)
+            Roboto Holiday Workshop (TechWhizz)
           </h5>
         </div>
         <div class="modal-body">
@@ -431,7 +473,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            Saturday Kids Holiday Workshop(Start With Scratch)
+            Saturday Kids Holiday Workshop (Start With Scratch)
           </h5>
         </div>
         <div class="modal-body">
@@ -452,7 +494,7 @@
           </h5>
         </div>
         <div class="modal-body">
-          <p> I learnt the basics of chess and some tactics of the game.</p>
+          <p> I learnt the basics of chess and tactics.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -465,11 +507,11 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            Saturday Kids Holiday Workshop(Mod and Hack Minecraft 3D)
+            Saturday Kids Holiday Workshop (Mod and Hack Minecraft 3D)
           </h5>
         </div>
         <div class="modal-body">
-          <p> I learnt how to alter the game of Minecraft in a block based program(Created to fit the course)</p>
+          <p> I learnt how to alter the game of Minecraft in a block based program (Created to fit the course)</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -520,7 +562,7 @@
           </h5>
         </div>
         <div class="modal-body">
-          <p> A block based competition(Scratch) making a game based on a theme.</p>
+          <p> A block based competition (Scratch) making a game based on a theme.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -533,7 +575,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            AMK CC Cubing A 2023(Participation Award)
+            AMK CC Cubing A 2023 (Participation Award)
           </h5>
         </div>
         <div class="modal-body">
@@ -554,7 +596,7 @@
           </h5>
         </div>
         <div class="modal-body">
-          <p> A Course covering more aspects of the Arduino Uno and the Arduino Nano</p>
+          <p> A Course covering more aspects of the Arduino Uno and Arduino Nano</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -584,11 +626,11 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            NRC(Coder Z Coding Challenge Primary Category(1st Place))
+            NRC (Coder Z Coding Challenge Primary Category (1st Place))
           </h5>
         </div>
         <div class="modal-body">
-          <p> Virtual Robotics Competition Based on a block based language (Created to fit the competition)</p>
+          <p> Virtual Robotics Competition. A block based language (Created to fit the competition)</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -601,11 +643,11 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            NRC(Coder Z Coding Challenge International League Novice(1st Place))
+            NRC (Coder Z Coding Challenge International League Novice(1st Place))
           </h5>
         </div>
         <div class="modal-body">
-          <p> Virtual Robotics Competition Based on a block based language (Created to fit the competition)</p>
+          <p> Virtual Robotics Competition. A block based language (Created to fit the competition)</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -618,11 +660,11 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            Steam Ahead(DrCT Global Finals(Individual(Silver Award))) and Steam Ahead(DrCT Global Finals(Team(Bronze Award)))
+            Steam Ahead (DrCT Global Finals(Individual(Silver Award))) and Steam Ahead(DrCT Global Finals(Team(Bronze Award)))
           </h5>
         </div>
         <div class="modal-body">
-          <p> Individual event testing on Microbit. Team event testing on hardware of the Microbit microcontroller(Building a robot based on a theme).</p>
+          <p> Individual event testing on Microbit. Team event testing on hardware of the Microbit microcontroller (Building a robot based on a theme).</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -639,7 +681,7 @@
           </h5>
         </div>
         <div class="modal-body">
-          <p> Based on Secondary school Curriculum. Heavy emphasis on chemical structures and The Periodic Table.</p>
+          <p> Based on Secondary school Curriculum. Heavy emphasis on chemical structures and the Periodic Table.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -652,11 +694,11 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            First Lego League(Finalist(Participation Award))
+            First Lego League (Finalist(Participation Award))
           </h5>
         </div>
         <div class="modal-body">
-          <p> Certification of Participation. Participating for the first time, I took on the role as Team Leader and guided our team to qualify for the Finals.</p>
+          <p> Certification of Participation. Participating for the first time, I took on the role as Team Leader and guided our team to qualify for the finals.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -669,7 +711,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            Elite Coder(Basic and Intermediate)
+            Elite Coder (Basic and Intermediate)
           </h5>
         </div>
         <div class="modal-body">
@@ -690,7 +732,7 @@
           </h5>
         </div>
         <div class="modal-body">
-          <p> Previously called OUCC (Oxford University Computing Challenge). Level A (Blockly). Passed with all questions answered correctly. Submission at 21min with a 45min time allowance. Awaiting for Official Results</p>
+          <p> Previously called OUCC (Oxford University Computing Challenge). Level A (Blockly). Achieved a perfect score. Submission at 21min with a 45min time allowance. </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -703,11 +745,11 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">
-            IDE Code Builder(Primary)(Finalist, 6th Overall)
+            IDE Code Builder (Primary)(Finalist, 6th Overall)
           </h5>
         </div>
         <div class="modal-body">
-          <p> Ranked 6th Overall. An annual block based (Scratch) Competition</p>
+          <p> Ranked 6th Overall. An annual block based (Scratch) competition</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -732,6 +774,64 @@
       </div>
     </div>
 </div>
+  <script>
+    const button = document.getElementById('downloadButton');
+    const link = document.getElementById('downloadLink');
+
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      button.innerHTML = `<span class="spinner"></span>Downloading...`;
+
+      setTimeout(() => {
+        link.click();
+        button.innerHTML = `✅ Done!`;
+        button.style.backgroundColor = '#28a745';
+
+        setTimeout(() => {
+          button.innerHTML = `⬇️ Download`;
+          button.style.backgroundColor = '#007BFF';
+        }, 3000);
+      }, 2000);
+    });
+    function toggleDropdown() {
+    const dropdown = document.getElementById("dropdownContent");
+    dropdown.classList.toggle("show");
+  }
+
+  let currentScale = 1;
+  function resizeDropdown(factor) {
+    currentScale *= factor;
+    currentScale = Math.min(Math.max(currentScale, 0.5), 2); // limit between 50% and 200%
+    const dropdown = document.getElementById("dropdownContent");
+    dropdown.style.scale = currentScale;
+  }
+
+  // Optional: Close dropdown when clicking outside
+  window.addEventListener("click", function(e) {
+    if (!e.target.closest('.menu-dropdown')) {
+      document.getElementById("dropdownContent").classList.remove("show");
+    }
+  });
+  document.querySelectorAll('.menu-project img').forEach(img => {
+  img.addEventListener('click', (e) => {
+    e.stopPropagation(); // Prevent dropdown from closing
+    const modal = document.getElementById('imgModal');
+    const modalImg = document.getElementById('modalImg');
+    
+    // Use high-res version if available
+    const src = img.getAttribute("data-highres") || img.src;
+    modalImg.src = src;
+    modal.style.display = 'block';
+  });
+});
+
+function closeModal() {
+  document.getElementById('imgModal').style.display = 'none';
+}
+</script>
+</body>
+</html>
+
 
 
     </div>
